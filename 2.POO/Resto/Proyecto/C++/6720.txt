@@ -1,0 +1,18 @@
+
+Prestamos----------------------------------------------------
+Fecha: 24/5/2023
+Nombre: Alondra Ramos
+Cantidad prestada: $1000.00
+Semanas a pagar: 14.00
+Interes (%): 40.0%
+Interes ($): $400.00
+Cantidad total: $1400.00
+-------------------------------------------------------------
+
+Devoluciones-------------------------------------------------
+Fecha: 4/6/2023
+Nombre: Alondra  Ramos
+Abono: $100.00
+Semanas restantes: 12.00
+Saldo restante: $1200.00
+-------------------------------------------------------------

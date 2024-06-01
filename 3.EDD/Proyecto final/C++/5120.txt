@@ -1,0 +1,19 @@
+----------------------------------------------------------
+Imprimiendo el prestamo
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Fecha: 11-23-2023 21:02:34
+---------------------------------------------------------- 
+Nombre: Thiago Miguel Zunza Mil
+Clave: 5120
+Telefono: -------------------------
+Correo: -------------------------------
+Cantidad prestada: $4000.00
+Semanas a pagar: 14.00
+Interes (%): 40.0%
+Interes ($): $1600.00
+Cantidad total: $5600.00
+---------------------------------------------------------- 
+Gracias por elegir CrediJAMD 
+Numero de atencion XXX-XXX-XXXX 
+Correo Anonimo7612@gmail.com 
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=

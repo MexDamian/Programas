@@ -1,0 +1,33 @@
+Prestamo: 
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Fecha: 23/11/2023	Hora: 10:42 PM
+----------------------------------------------------------
+Nombre: Elizabeth Alejandra Moguel Kantun
+Clave: 8741
+Telefono: ------------------------
+Correo: ------------------------
+Cantidad prestada: $3000.0
+Semanas a pagar: 14.0
+Interes (%): 40.0%
+Interes ($): $1200.0
+Cantidad total: $4200.0
+----------------------------------------------------------
+Gracias por elegir CrediJAMD 
+Numero de atencion XXX-XXX-XXXX 
+Correo Anonimo7612@gmail.com 
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+---------------------------------------------------------------------------
+Devolucion: n-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Fecha: 23/11/2023	Hora: 10:53 PM
+---------------------------------------------------------- 
+Nombre: Elizabeth Alejandra Moguel Kantun
+Clave: 8741
+Abono: $300.0
+Semanas restantes: 1.0
+Saldo restante: $300.0
+---------------------------------------------------------- 
+Gracias por elegir CrediJAMD 
+Numero de atencion XXX-XXX-XXXX 
+Correo Anonimo7612@gmail.com 
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+---------------------------------------------------------------------------

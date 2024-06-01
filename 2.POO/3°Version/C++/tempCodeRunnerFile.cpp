@@ -1,0 +1,1 @@
+"Saldo restante: $" << D1.cantidadprestada -(D1.cantidaddevuelta * D1.semanapagada)  << "\n"

@@ -1,0 +1,34 @@
+----------------------------------------------------------
+Imprimiendo el prestamo
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Fecha: 11-23-2023 20:16:22
+---------------------------------------------------------- 
+Nombre: Maria Isabel Ortiz Ayala
+Clave: 6769
+Telefono: 987-521-9710
+Correo: ----------------------
+Cantidad prestada: $2000.00
+Semanas a pagar: 14.00
+Interes (%): 40.0%
+Interes ($): $800.00
+Cantidad total: $2800.00
+---------------------------------------------------------- 
+Gracias por elegir CrediJAMD 
+Numero de atencion XXX-XXX-XXXX 
+Correo Anonimo7612@gmail.com 
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+----------------------------------------------------------
+Imprimiendo el devolucion
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Fecha: 11-23-2023 21:07:30
+---------------------------------------------------------- 
+Nombre: Maria Isabel Ortiz Ayala
+Clave: 6769
+Abono: $200.00
+Semanas restantes: 9.00
+Saldo restante: $1800.00
+---------------------------------------------------------- 
+Gracias por elegir CrediJAMD 
+Numero de atencion XXX-XXX-XXXX 
+Correo Anonimo7612@gmail.com 
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=

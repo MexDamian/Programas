@@ -1,0 +1,19 @@
+----------------------------------------------------------
+Imprimiendo el prestamo
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Fecha: 11-23-2023 21:01:18
+---------------------------------------------------------- 
+Nombre: Jesus Alejandro Mex Damian
+Clave: 6721
+Telefono: 971-521-5478
+Correo: jesusmex510@gmail.com
+Cantidad prestada: $5000.00
+Semanas a pagar: 14.00
+Interes (%): 40.0%
+Interes ($): $2000.00
+Cantidad total: $7000.00
+---------------------------------------------------------- 
+Gracias por elegir CrediJAMD 
+Numero de atencion XXX-XXX-XXXX 
+Correo Anonimo7612@gmail.com 
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=

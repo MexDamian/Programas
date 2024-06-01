@@ -1,0 +1,33 @@
+Prestamo: 
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Fecha: 27/11/2023	Hora: 12:37 PM
+----------------------------------------------------------
+Nombre: Lorena Mas
+Clave: 101
+Telefono: 741-521-8523
+Correo: lorena@gmail.com
+Cantidad prestada: $5000.0
+Semanas a pagar: 14.0
+Interes (%): 40.0%
+Interes ($): $2000.0
+Cantidad total: $7000.0
+----------------------------------------------------------
+Gracias por elegir CrediJAMD 
+Numero de atencion XXX-XXX-XXXX 
+Correo Anonimo7612@gmail.com 
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+---------------------------------------------------------------------------
+Devolucion: n-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Fecha: 27/11/2023	Hora: 12:39 PM
+---------------------------------------------------------- 
+Nombre: Lorena Mas
+Clave: 101
+Abono: $500.0
+Semanas restantes: 12.0
+Saldo restante: $6000.0
+---------------------------------------------------------- 
+Gracias por elegir CrediJAMD 
+Numero de atencion XXX-XXX-XXXX 
+Correo Anonimo7612@gmail.com 
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+---------------------------------------------------------------------------

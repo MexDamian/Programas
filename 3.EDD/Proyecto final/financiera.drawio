@@ -1,0 +1,112 @@
+<mxfile host="65bd71144e">
+    <diagram id="lFm0t9Rbz9QpgN8EYI5T" name="Página-1">
+        <mxGraphModel dx="1765" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="15" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Acreedor.h" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=default;gradientColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="80" width="210" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="- nombre : string&#10;- apellido : string&#10;- clave : string&#10;- telefono : string&#10;- correo : string&#10;- movimiento : int" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2">
+                    <mxGeometry y="26" width="210" height="94" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="2">
+                    <mxGeometry y="120" width="210" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="+ Acreedor ( )&#10;+ Acreedor (int movimiento)&#10;+ setNombre (nombre : string)&#10;+ setApellido (apellido : string)&#10;+ setClave (clave : string)&#10;+ setTelefono (telefono : string)&#10;+ setCorreo (correo : string)&#10;+ setMovimiento (movimiento : int)&#10;+ getNombre( ) : string&#10;+ getApellido( ) : string&#10;+ getClave( ) : string&#10;+ getTelefono( ) : string&#10;+ getCorreo( ) : string&#10;+ getMovimiento( ) : string" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2">
+                    <mxGeometry y="128" width="210" height="212" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6" target="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Prestamo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="480" width="260" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="- fecha : string&#10;- prestamo : double&#10;- porcentaje : double&#10;- semana : double" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6">
+                    <mxGeometry y="26" width="260" height="64" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="6">
+                    <mxGeometry y="90" width="260" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="+ Prestamo( )&#10;+ setFecha (fecha : string)&#10;+ setPrestamo(prestamo : double)&#10;+ setPorcentaje(porcentaje : double)&#10;+ setSemana(semana : double)&#10;+ getFecha( ) : string&#10;+ getPrestamo( ) : double&#10;+ getPorcentaje( ) : double&#10;+ getSemana( ) : double&#10;+ Interes ( )&#10;+ PrestamoTotal( )&#10;+ toString( )" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6">
+                    <mxGeometry y="98" width="260" height="182" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="10" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Devolucion" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="480" width="230" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&#10;- fecha : string&#10;- prestamo: double&#10;- devolucion: double&#10;- pagada: double&#10;- apagar: double&#10;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="10">
+                    <mxGeometry y="26" width="230" height="114" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="line;strokeWidth=1;fillColor=default;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="10">
+                    <mxGeometry y="140" width="230" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="+ Devolucion ( )&#10;+setNombre (nombre : string)&#10;+setFecha (fecha : string)&#10;+setPrestada (prestada : double)&#10;+setDevuelta (devuelta : double)&#10;+setPagada (pagada : double)&#10;+setApagar (apagar : double)&#10;+getNombre ( ) : string&#10;+getClave ( ) : string&#10;+getFecha ( ) : string&#10;+getPrestada ( ) : double&#10;+getDevuelta ( ) : double&#10;+getPagada ( ) : double&#10;+getApagar ( ) : double&#10;+SemanasRestantes( )&#10;+SaldoRestante( )&#10;+toString( )" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="10">
+                    <mxGeometry y="148" width="230" height="252" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="18" target="32">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="nodoPrestamo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="-80" y="790" width="340" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="-prestamo : Prestamo&#10;- enlace : nodoPrestamo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="18">
+                    <mxGeometry y="26" width="340" height="34" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="18">
+                    <mxGeometry y="60" width="340" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="+ nodoPrestamo( )&#10;+ nodoPrestamo(Prestamo prestamo)&#10;+ nodoPrestamo(Prestamo prestamo, nodoPrestamo enlace)&#10;+ setPrestamo(prestamo : Prestamo)&#10;+ getPresta( )&#10;+ setEnlace(nodoPrestamo enlace)&#10;+ getEnlace( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="18">
+                    <mxGeometry y="68" width="340" height="112" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="22" target="28">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="nodoDevolucion" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="940" width="370" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="- devolucion : Devolucion&#10;- enlace : nodoDevolucion" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="22">
+                    <mxGeometry y="26" width="370" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="22">
+                    <mxGeometry y="70" width="370" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="+ nodoDevolucion( )&#10;+ nodoDevolucion(Devolucion devolucion)&#10;+ ndodDevolucion(Devolucion devolucion, nodoDevolucion enlace)&#10;+ setDevolucion(devolucion : Devlucion)&#10;+ getDevolucion( )&#10;+ setEnlace(nodoDevolucion enlace)&#10;+ getEnlace( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="22">
+                    <mxGeometry y="78" width="370" height="122" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="ListaDinamicaDevolucion" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="1230" width="380" height="298" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="# primero : nodoDevolucion&#10;# ultimo : nodoDevolucion&#10;# iterador : nodoDevolucion&#10;# contador : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="28">
+                    <mxGeometry y="26" width="380" height="64" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="28">
+                    <mxGeometry y="90" width="380" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="+ ListaDinamicaDevolucion();&#10;+ agregarNodoInicio(Devolucion devolucion);&#10;+ Devolucion eliminaNodoInicio();&#10;+ agregarNodoFinal(Devolucion devolucion);&#10;+ Devolucion eliminaNodoFinal();&#10;+ int elementos();&#10;+ Devolucion datoNodo(int posBaseCero);&#10;+ ordenarNombre();&#10;+ OrdenarSaldo();&#10;+ QuickNombre(nodoDevolucion *inicio, nodoDevolucion *final);&#10;+ QuickSaldo(nodoDevolucion *inicio, nodoDevolucion *final);&#10;+ Devolucion buscarApellido(string buscador);&#10;+ ListaDinamicaDevolucion buscarApellidos(string buscador)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="28">
+                    <mxGeometry y="98" width="380" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="ListaDinamicaPrestamo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=default;fillColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="-160" y="1050" width="340" height="308" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="# primero : nodoPrestamo&#10;# ultimo : nodoPrestamo&#10;# iterador : nodoPrestamo&#10;# contador : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="32">
+                    <mxGeometry y="26" width="340" height="74" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="32">
+                    <mxGeometry y="100" width="340" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="+ ListaDinamicaPrestamo()&#10;+ agregaNodoInicio(Prestamo prestamo)&#10;+ Prestamo eliminaNodoInicio()&#10;+ agregaNodoFinal(Prestamo prestamo)&#10;+ Prestamo eliminaNodoFinal()&#10;+ int elementos()&#10;+ Prestamo datoNodo(int PosBaseCero)&#10;+ ordenarNombre()&#10;+ ordenarPrestamo()&#10;+ QuickNombre(nodoPrestamo *inicial, nodoPrestamo *final)&#10;+ QuickPrestamo(nodoPrestamo *inicial, nodoPrestamo *final)&#10;+ Prestamo buscarNombre(string buscado)&#10;+ ListaDinamicaPrestamo buscarNombres(string buscado)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="32">
+                    <mxGeometry y="108" width="340" height="200" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

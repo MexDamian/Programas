@@ -1,0 +1,13 @@
+
+ 
+-------------------------------------------------------------
+Imprimiendo todos los prestamos
+
+ 
+Nombre: Jesus Alejandro Mex Damian
+Fecha: 25/03/2023
+Cantidad prestada: $1000.00
+Semanas a pagar: 14.00
+Interes (%): 40.0%
+Interes ($): $400.00
+Cantidad total: $1400.00

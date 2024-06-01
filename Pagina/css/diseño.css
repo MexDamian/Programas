@@ -1,0 +1,85 @@
+/*
+Azul oscuro #303F9F
+AZUL #3F51B5
+BLANCO #FFFFFF
+AMARILLO #FFEB3B
+AZUL CLARO #C5CAE9
+NEGRO #212121
+GRIS OSCURO #757575
+GRIS #BDBDBD
+*/
+h1{
+    font-size: 65px;
+    color: #3F51B5;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.lienzo{
+    background: #757575;
+    
+}
+
+.subtitulos{
+    font-size: 40px;
+    color: white;
+   text-align: center;
+}
+ 
+.html{
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+    font-style: normal;
+} 
+.Uniformes1{
+    text-align: left;
+    height: 200px;
+    width: 200px;
+    
+    
+}
+.Uniformes2{
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    bottom: 200px;
+    left: 420px;
+}
+.Uniformes3{
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    bottom: 420px;
+    left: 820px;
+}
+
+.lista{
+    list-style-type:upper-roman ;
+    color: orange;
+}
+
+.tabla{
+    border: 5px solid #3F51B5;
+    border-collapse: collapse;
+    text-align: center;
+    width: 50%;
+    background-color: white;
+}
+
+.datos{
+    padding: 20px;
+    background-color: #3F51B5;
+    text-align: center;
+    font-size: 25px;
+}
+
+.parafo{
+    font-size: 25px;
+}
+
+#identificador{
+    font-size: 30px;
+    color: blue;
+}
+

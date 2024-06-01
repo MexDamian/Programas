@@ -1,0 +1,22 @@
+<mxfile host="65bd71144e">
+    <diagram id="ACZbC87dbtx6h9865CHy" name="Page-1">
+        <mxGraphModel dx="797" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Devolucion" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="110" width="360" height="420" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="- nombre : string&#10;- clave : string&#10;- fecha : string&#10;- cantidadprestada : double&#10;- cantidaddevuelta : double&#10;- semanapagada : double&#10;- semanasapagar : double&#10;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2" vertex="1">
+                    <mxGeometry y="26" width="360" height="114" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="2" vertex="1">
+                    <mxGeometry y="140" width="360" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="+ Devolucion ()&#10;+setNombre (nombre : string)&#10;+setClave (clave : string)&#10;+setFecha (fecha : string)&#10;+setCantidadprestada (cantidadprestada : double)&#10;+setCantidaddevuelta (cantidaddevuelta : double)&#10;+setSenmanapagada (semanapagada : double)&#10;+setSemanasapagar (semanasapagar : double)&#10;+getNombre () : string&#10;+getClave () : string&#10;+getFecha () : string&#10;+getCantidadprestada () : double&#10;+getCantidaddevuelta () : double&#10;+getSenmanapagada () : double&#10;+getSemanasapagar () : double&#10;+SemanasRestantes() : double&#10;+SaldoRestante() : double&#10;+tostring() : string" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2" vertex="1">
+                    <mxGeometry y="148" width="360" height="272" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
